@@ -16,5 +16,9 @@ func main() {
 	myVar.Age = "12"
 
 	log.Println(myVar.Age, " now the name is ", myVar.Name)
-	helpers.MultipleDiminesionSlice()
+	//helpers.MultipleDiminesionSlice()
+	//helpers.MapLearning()
+	//helpers.WordCountFrequency()
+	//helpers.StructWithSlice()
+	helpers.SliceString()
 }
