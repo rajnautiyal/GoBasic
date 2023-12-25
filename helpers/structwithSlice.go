@@ -36,7 +36,7 @@ func StructWithSlice() {
 		person2.LastName: person2,
 	}
 
-	fmt.Println(personMap)
+	fmt.Println(personMap)	
 
 	personMap1 := make(map[string]Person, 0)
 	personMap1["key1"] = person1
