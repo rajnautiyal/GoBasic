@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/rajnautiyal/myniceprogram/function"
-)
+import "github.com/rajnautiyal/myniceprogram/websitevalidator"
 
 func main() {
 	/*fmt.Println("hello raj")
@@ -59,5 +57,23 @@ func main() {
 	//fmt.Println("this is the sum", sum)
 
 	//function.TestMyInterface()
-	function.WriteInFIile()
+	//function.WriteInFIile()
+
+	//function.TestRecursion()
+
+	//fmt.Println(leedcodeproblm.NumDecodings("226"))
+
+	//s := leedcodeproblm.Solution{}
+	//result := s.NumDecodings("111111111111111111111111111111111111111111111")
+	//fmt.Println(result)
+	//result := leedcodeproblm.NumDecodings("223")
+
+	//pointer.TestFun()
+	//concurrency.TestRaceCondtion()
+
+	//concurrency.TestAtomicCondtion()
+	//words := []string{"abc", "aabc", "bc"}
+	//leedcodeproblm.RedistributionCharacter(words)
+
+	websitevalidator.WebValidator()
 }
